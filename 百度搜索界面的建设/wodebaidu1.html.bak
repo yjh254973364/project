@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+    <!--更多-->
+<div style="float:right; width:50px"><a href="https://www.baidu.com/more/"><h1 style="color:black;font-size:10px" ><u>更多</u><h1></a></div>
+    <!--设置-->
+<div style="float:right; width:50px"><a href="http://xueshu.baidu.com/"><h1 style="color:black;font-size:10px" ><u>设置</u><h1></a></div>
+     <!--登录-->
+<div style="float:right; width:50px"><a href="https://www.baidu.com/link?url=OLALI8cV7ccA-BWRWfqDDC5ebzV7lU5UgcQomHnTpgwmRWkXxjkRy0aP1Un81IxE&wd=&eqid=8d716d3c000a6c1c000000065eb42691"><h1 style="color:black;font-size:10px" ><u>登录</u><h1></a></div>
+    <!--学术-->
+<div style="float:right; width:50px"><a href="http://xueshu.baidu.com/"><h1 style="color:black;font-size:10px" ><u>学术</u><h1></a></div>
+   <!--贴吧-->
+<div style="float:right; width:50px"><a href="https://tieba.baidu.com/index.html?traceid="><h1 style="color:black;font-size:10px" ><u>贴吧</u><h1></a></div>
+  <!--视频-->
+<div style="float:right; width:50px"><a href="https://haokan.baidu.com/?sfrom=baidu-top"><h1 style="color:black;font-size:10px" ><u>视频</u><h1></a></div>
+  <!--地图-->
+<div style="float:right; width:50px"><a href="https://map.baidu.com/@12601851,3194479,13z"><h1 style="color:black;font-size:10px" ><u>地图</u><h1></a></div>
+<!--hao123-->
+<div style="float:right; width:50px"><a href="https://www.hao123.com/"><h1 style="color:black;font-size:10px" ><u>hao123</u><h1></a></div>
+<!--新闻-->
+<div style="float:right; width:50px"><a href="http://news.baidu.com/"><h1 style="color:black;font-size:10px" ><u>新闻</u><h1></a></div>
+<!--抗击肺炎-->
+<div style="float:right; width:80px"><a href="https://voice.baidu.com/act/newpneumonia/newpneumonia/?from=osari_pc_1"><h1 style="color:red;font-size:10px" ><u>抗击肺炎<sup>●</sup></u>
+	   </h1></a></div>
+
+	   	<!--百度中央图标-->
+   <div align="center">
+   <br/><br/><br/>
+  <a href="https://www.baidu.com/s?wd=今日新鲜事&tn=78040160_5_pg&ch=8"><img src="baidu.png" width="20%" height="10%" alt="loading..." /></a>
+   </div>
+
+   <nav align="center">
+   123
+   </nav>
+
+
+	<!--百度二维码-->
+   <div align="center">
+   <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+  <img src="erweima.png" width="20%" height="10%" alt="loading..." />
+   </div>
+
+   <footer>
+   <br/>
+       <!--设为首页-->
+<div style="float:left; width:80px"><a href="https://www.baidu.com/cache/sethelp/index.html"><h1 style="color:gray;font-size:12px" >设为首页
+	   </h1></a></div>
+       <!--关于百度-->
+<div style="float:left; width:80px"><a href="https://home.baidu.com/"><h1 style="color:gray;font-size:12px" >关于百度
+	   </h1></a></div>
+
+       <!--About Baidu-->
+<div style="float:left; width:80px"><a href="http://ir.baidu.com/"><h1 style="color:gray;font-size:12px" >About Baidu
+	   </h1></a></div>
+
+       <!--意见反馈-->
+<div style="float:left; width:80px"><a href="https://help.baidu.com/newadd?prod_id=1&category=4"><h1 style="color:gray;font-size:12px" >意见反馈
+	   </h1></a></div>
+
+
+   	   <!--使用百度前必读-->
+<div style="float:left; width:100px"><a href="https://www.baidu.com/duty/"><h1 style="color:gray;font-size:12px" >使用百度前必读
+	   </h1></a></div>
+
+
+   	   <!--百度推广-->
+<div style="float:left; width:80px"><a href="http://e.baidu.com/ebaidu/home?refer=888"><h1 style="color:gray;font-size:12px" >百度推广
+	   </h1></a></div>
+
+
+   <!--帮助中心-->
+<div style="float:left; width:80px"><a href="https://help.baidu.com/"><h1 style="color:gray;font-size:12px" >帮助中心
+	   </h1></a></div>
+
+<!--京ICP证030173号-->
+<div style="float:right; width:100px"><h1 style="color:gray;font-size:12px" >京ICP证030173号
+	   </h1></div>
+
+   <!--京公网安备11000002000001号-->
+<div style="float:right; width:170px"><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001"><h1 style="color:gray;font-size:12px" >京公网安备11000002000001号
+	   </h1></a></div>
+
+	   <!--(京)-经营性-2017-0020-->
+<div style="float:right; width:150px"><h1 style="color:gray;font-size:12px" >(京)-经营性-2017-0020
+	   </h1></div>
+
+<!--©2020 Baidu-->
+<div style="float:right; width:100px"><h1 style="color:gray;font-size:12px" >©2020 Baidu
+	   </h1></div>
+
+
+
+   </footer>
+
+
+
+ </body>
+</html>
