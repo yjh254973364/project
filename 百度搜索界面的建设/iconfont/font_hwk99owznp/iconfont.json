@@ -6,11 +6,11 @@
   "description": "",
   "glyphs": [
     {
-      "icon_id": "6822917",
-      "name": "qq",
-      "font_class": "qq",
-      "unicode": "e6ca",
-      "unicode_decimal": 59082
+      "icon_id": "1048894",
+      "name": "QQ",
+      "font_class": "icon_qq",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
     }
   ]
 }
