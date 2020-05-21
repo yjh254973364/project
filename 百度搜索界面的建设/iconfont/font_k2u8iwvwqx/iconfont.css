@@ -1,0 +1,21 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1590068712533'); /* IE9 */
+  src: url('iconfont.eot?t=1590068712533#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPsAAsAAAAACCQAAAOgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqEMINYATYCJAMICwYABCAFhG0HLhv8BhHVmzvJfhzkpskbsKK/u/rRRGPfg4B+M38WNpRCJcblTCqmknjF7EvNnjZAwADepbVh6YiEskR8i1Tt2l92Jvth/3PMdCmef6VzqUyqpL0Bjgc0sKi4oxa+A7kD4x7GrryI/RCAQaI8RJVqdZqgIzGGCUD06dm9I3pKg6xJFegItJK5ErEAG7oyUzkPzPffX7yjUDoo2FSMjAbdqnahwpuqZpI64f8J2rgIuOOZALYIVCAPkCCalFrqoYaRPFQMJSJJxbpSBbyp+v//Lme1X3ggQGgYkgwQG885J67NO9XPVACQgAYcBB73ehXQstR0Z8iYpbM/7lgzMTH7qebrY0JZjleZBebaGG8Wg2CWdbHC4EaTYKtZbjPgiZids/qCOUyf5XUbPggQwf2ZUMTwGrNiI57ZljlbCMMfG/CYYqIHKP1RkC7W71lv+YTNEqz8WeGo8H5rghWyzLWWN0sLv2d7UmCt2xudx9vcW8xqaQpYMWSz9jeN69eb3LjR9Nat5jeb+f1rvNYNcsKbCRb8l2c39QUi/r9X/jUxKMatjWo0sY5RuLAzdfik9GbT6Skic0qWxw6HcDwu4xKz8laeGMyiiLzzx68sNsF6/T6h4OPEpCeNCmvZqj5JsD+p2qfwFcdCw1nY+Vl2NKNjO9f+Yk/4Uju7rXCrz/bEzyUbZrcXvzX2jJyTNnKOq1+tMk+SEp/UbljLkX2e4u7eooxITBLHip9ux+d4v1yLjc7eBxJfbr1xYszZF1tezMs2Zll03eSme+Tnz3KPyXRZDiceT9OkOsVfau2zx1ero666fXsVFKpYq65CB9WtGj/oR4d+VADg/xvqZjX3n/0Yvome1dpnLvNDNyUAd9+ve+27/r8haWcD/f6tAv4jt2WdVPmGVpEytzShcBDt/ZQYGMD/YIfTw742C7FJoHMuBIV0JICKThakxOYBGyZFQEOnPBjkVn2xicsgVIRMD+QyFYDAbjsoZOIQqNhdQErsA7AR5QNo2FPBwHu1W3NrnxFHwp5xguEPZkxRWnoWQeoN1dv3lOT7uBfSbPzQVk02fsWINMaE+aM6ZgmSUoALOAy9T5ApWRy50sz5UNey7IGqMYWFcERQj6EJGPwBY5RE0m3ORO7tb5Dy5vWopqbC+ILIzLQPWpWmBfIqia1qruU+sw+lw5gEJJIE4AJMyJuRBOTyXhYasYruEcoOatRItpVU88vC020BDIZSycydzU1sFws=') format('woff2'),
+  url('iconfont.woff?t=1590068712533') format('woff'),
+  url('iconfont.ttf?t=1590068712533') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1590068712533#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xin1:before {
+  content: "\e945";
+}
+
