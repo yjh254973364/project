@@ -1,0 +1,217 @@
+		body{
+			margin: 0;
+			font-size: 14px;
+			}
+		a{
+			text-decoration: none;
+			color: inherit;
+		 }
+        input {
+            outline: none;
+        }
+		ol, ul {
+			list-style: none;
+		}
+		li{
+			display:inline-block;
+			margin-right:50px;
+			display: list-item;
+		}
+		.header{
+			margin: 0;
+			line-height: 60px;
+			padding:0 24px;
+		}
+		.left-navigation:hover,.fight-against-pneumonia:hover{
+			color:blue;
+		}
+		.bottom-left-navigation:hover,.bottom-right-navigation:hover{
+			color:black;
+		}
+		.left-navigation{															
+			color:black;
+			font-size:13px;
+			margin-right: 31px;
+			display: inline-block;
+		}
+		.right-navigation{
+			height: 60px;
+			float: right;
+		}
+		.fight-against-pneumonia{
+			color:red;
+			margin-left:32px;
+		}
+		.main .logo-img{
+			height: 100%;
+		}
+		.sign-in{
+			background-color: #4e71f2;
+			border-radius: 10px;
+			margin-left: 32px;
+			color: white;
+			display: inline-block;
+			height: 24px;
+			width: 48px;
+			line-height: 23px;
+			text-align: center;
+			margin-top: 17px;
+		}
+		.footer{
+			background-color: #fafafa;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            line-height: 40px;
+            color: #9195a3;
+            font-size: 12px;
+            padding-left: 20px;
+			padding-right: 20px;
+		}
+		.main .baidu-logo{
+            height: 110px;
+            display: inline-block;
+            text-align: center;
+            width: 100%;
+		}
+		.bottom-right-navigation,.bottom-right-title{
+			margin-left:30px;
+			float:right;
+		}
+		.bottom-left-navigation{
+			float:left;
+			margin-right:30px;
+		}
+		.main .search-btn{
+            transition: all .15s;
+            width: 108px;
+            line-height: 44px;
+            text-align: center;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background: #4e6ef2;
+            color: #fff;
+            display: inline-block;
+            vertical-align: top;
+            font-size: 16px;
+        }
+		.input-box{
+		    width: 654px;
+			height: 100%;
+			text-align:center;
+		}
+        .main {
+            width: 650px;
+            margin: 0 auto;
+            padding-top: 30px;
+        }
+		.main .search-btn:hover {
+            background: #4662d9;
+        }
+		.main .search-key {
+            border: 2px solid #c4c7ce;
+            border-right: 0;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            width: 520px;
+            padding: 10px;
+            height: 20px;
+            line-height: 20px;
+            font-size: 18px;
+            transition: all .15s;
+        }
+        .main .search-key:focus {
+            border-color: #4e6ef2;
+        }
+		.camere{
+			font-size:30px;
+			position: relative;
+			top: -37px;
+			left: 500px;
+			cursor: default;
+		}
+		.camere:hover{
+			color:blue;
+		}
+		.change{
+			position: relative;
+			font-size:20px;
+			left: 400px;
+			top:4px;
+		}
+		.change-2{
+			position: relative;
+			font-size:13px;
+			left: 400px;
+		}
+		.hot-nav{
+			font-size:13px;
+			display: inline-block;
+		}
+		.changing:hover{
+			color:blue;
+		}
+		.hot-title{
+			position: relative;
+		}
+		.news-rank-left-content{
+			text-align: left;
+			line-height: 36px;
+		}
+		.news-rank-right-content{
+			text-align: left;
+			line-height: 36px;
+			position:relative;
+			left:350px;
+			top:-125px;
+		}
+		.rank:hover{
+			color:blue;
+			text-decoration:underline;
+			}
+		.rank{
+			position: relative;
+			font-size:16px;
+			left: -40px;
+		}
+		.rank-first{
+			position: relative;
+			font-size:16px;
+			left: -40px;
+			color:#FFD700;
+		}
+		.rank-second{
+			position: relative;
+			font-size:16px;
+			left: -40px;
+			color:#3399ff;
+		}
+		.rank-third{
+			position: relative;
+			font-size:16px;
+			left: -40px;
+			color:#B5A642;
+		}
+		.rank-other{
+			position: relative;
+			font-size:16px;
+			left: -40px;
+			color:#979797;
+		}
+		.rank-icon-new{
+			position: relative;
+			font-size:16px;
+			left: -40px;
+			color:red;
+		}
+		.rank-icon-hot{
+			position: relative;
+			font-size:16px;
+			left: -40px;
+			color:orange;
+		}
+		.search-box{
+			width:650px;
+			height:45px;
+		}
