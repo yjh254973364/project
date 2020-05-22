@@ -14,8 +14,10 @@
 		}
 		li{
 			display:inline-block;
-			margin-right:50px;
-			display: list-item;
+			
+		}
+		ul{
+			column-count:2;
 		}
 		.header{
 			margin: 0;
@@ -155,16 +157,10 @@
 		.hot-title{
 			position: relative;
 		}
-		.news-rank-left-content{
+		.news-rank-content{
 			text-align: left;
 			line-height: 36px;
-		}
-		.news-rank-right-content{
-			text-align: left;
-			line-height: 36px;
-			position:relative;
-			left:350px;
-			top:-125px;
+			float:left;
 		}
 		.rank:hover{
 			color:blue;
