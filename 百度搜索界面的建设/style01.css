@@ -169,44 +169,30 @@
 			text-decoration:underline;
 			}
 		.rank{
-			position: relative;
 			font-size:16px;
-			left: -40px;
 		}
 		.rank-first{
-			position: relative;
 			font-size:16px;
-			left: -40px;
 			color:#FFD700;
 		}
 		.rank-second{
-			position: relative;
 			font-size:16px;
-			left: -40px;
 			color:#3399ff;
 		}
 		.rank-third{
-			position: relative;
 			font-size:16px;
-			left: -40px;
 			color:#B5A642;
 		}
 		.rank-other{
-			position: relative;
 			font-size:16px;
-			left: -40px;
 			color:#979797;
 		}
-		.rank-icon-new{
-			position: relative;
+		.rank-icon-new{	
 			font-size:16px;
-			left: -40px;
 			color:red;
 		}
 		.rank-icon-hot{
-			position: relative;
 			font-size:16px;
-			left: -40px;
 			color:orange;
 		}
 		.search-box{
