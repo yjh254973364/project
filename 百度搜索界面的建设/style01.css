@@ -14,12 +14,15 @@
 		}
 		li{
 			display:inline-block;
+			    width: 272px;
 		}
 		ul{
 			column-count:2;
 			margin:0;
 			padding:0;
-
+		}
+		i{
+			font-style:normal;
 		}
 		.header{
 			margin: 0;
@@ -88,17 +91,23 @@
 			margin-right:30px;
 		}
 		.main .search-btn{
-            transition: all .15s;
-            width: 108px;
-            line-height: 44px;
-            text-align: center;
-            border-top-right-radius: 10px;
-            border-bottom-right-radius: 10px;
-            background: #4e6ef2;
+			display:inline-block;
+            cursor: pointer;
+            width: 100px;
+            height: 44px;
+            line-height: 45px;
+            line-height: 44px\9;
+            padding: 0;
+            background: 0 0;
+            background-color: #4e6ef2;
+            border-radius: 0 10px 10px 0;
+            font-size: 17px;
             color: #fff;
-            display: inline-block;
-            vertical-align: top;
-            font-size: 16px;
+            box-shadow: none;
+            font-weight: 400;
+            border: none;
+            outline: 0;
+            text-align:center;
         }
 		.input-box{
 		    width: 654px;
@@ -106,9 +115,10 @@
 			text-align:center;
 		}
         .main {
-            width: 650px;
+            width: 660px;
             margin: 0 auto;
             padding-top: 30px;
+            height:340px;
         }
 		.main .search-btn:hover {
             background: #4662d9;
@@ -118,12 +128,13 @@
             border-right: 0;
             border-top-left-radius: 10px;
             border-bottom-left-radius: 10px;
-            width: 520px;
+            width: 500px;
             padding: 10px;
             height: 20px;
             line-height: 20px;
             font-size: 18px;
             transition: all .15s;
+            padding-right: 35px;
         }
         .main .search-key:focus {
             border-color: #4e6ef2;
@@ -132,32 +143,32 @@
 			font-size:30px;
 			position: relative;
 			top: -37px;
-			left: 500px;
+			left: 514px;
 			cursor: default;
 		}
 		.camere:hover{
 			color:blue;
 		}
 		.change{
-			position: relative;
-			font-size:20px;
-			left: 400px;
-			top:4px;
+			font-size:18px;
+			float:right;
 		}
-		.change-2{
-			position: relative;
+		.change:hover{
+			color:blue;
+		}
+		.change-text{
 			font-size:13px;
-			left: 400px;
+			float:right;
+		}
+		.change-text:hover{
+			color:blue;
 		}
 		.hot-nav{
 			font-size:13px;
 			display: inline-block;
-		}
-		.changing:hover{
-			color:blue;
-		}
-		.hot-title{
-			position: relative;
+			width: 650px;
+			margin-top: 43px;
+			margin-bottom: 10px;
 		}
 		.news-rank-content{
 			text-align: left;
@@ -198,4 +209,7 @@
 		.search-box{
 			width:650px;
 			height:45px;
+		}
+		.refresh:hover{
+			font-size:13px;
 		}
