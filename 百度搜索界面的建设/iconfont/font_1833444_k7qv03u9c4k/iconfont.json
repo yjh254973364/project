@@ -1,0 +1,44 @@
+{
+  "id": "1833444",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "16132",
+      "name": "热",
+      "font_class": "re",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "3568800",
+      "name": "6边形",
+      "font_class": "bianxing",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "956",
+      "name": "新",
+      "font_class": "xin",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1245577",
+      "name": "换一换",
+      "font_class": "huanyihuan",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "9402946",
+      "name": "相机",
+      "font_class": "changyongicon-",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    }
+  ]
+}
