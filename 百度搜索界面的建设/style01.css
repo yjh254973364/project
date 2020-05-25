@@ -23,7 +23,6 @@
 			column-count:2;
 			margin:0;
 			padding:0;
-			position: relative;
 		}
 		i{
 			font-style:normal;
@@ -127,12 +126,6 @@
             height: 325px;
             position:relative;
         }
-		.center {
-            width: 646px;
-            margin: 0 auto;
-            height: 212px;
-            position: relative;
-        }
 		.main .search-btn:hover {
             background: #4662d9;
         }
@@ -189,10 +182,8 @@
 		.hot-nav{
 			font-size: 13px;
 			display: inline-block;
-            width: 646px;
-			position: relative;
-			margin-bottom: 8px;
-			top: 35px;
+			width: 646px;
+			margin: 32px 0px 8px 0px;
 		}
 		.hot-title{
 			width:56px;
@@ -203,8 +194,6 @@
 			text-align: left;
 			float:left;
 			width:646px;
-			position: absolute;
-			top: 258px;
 		}
 		.rank:hover{
 			color:blue;
