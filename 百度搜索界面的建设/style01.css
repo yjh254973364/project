@@ -17,11 +17,14 @@
 			display:inline-block;
 			    width: 272px;
 				height:34px;
+				line-height: 32px;
 		}
 		ul{
 			column-count:2;
 			margin:0;
 			padding:0;
+			position: relative;
+			top: 43px;
 		}
 		i{
 			font-style:normal;
@@ -83,8 +86,7 @@
             display: inline-block;
             text-align: center;
             width: 100%;
-			position: relative;
-            top: 3px;
+			vertical-align: bottom;
 		}
 		.bottom-right-navigation,.bottom-right-title{
 			margin-left:30px;
@@ -95,6 +97,7 @@
 			margin-right:30px;
 		}
 		.main .search-btn{
+			vertical-align: bottom;
 			display:inline-block;
             cursor: pointer;
             width: 100px;
@@ -137,7 +140,7 @@
             height: 20px;
             line-height: 20px;
             font-size: 20px;
-            transition: all .15s;
+            
             padding-right: 35px;
         }
         .main .search-key:focus {
@@ -155,11 +158,14 @@
 			color:blue;
 		}
 		.change{
+			right: 1px;
+			top: 5px;
 			display: inline-block;
-			font-size: 16px;
+			font-size: 25px;
 			margin: 0px 4px 2px 0px;
-			width: 16px;
+			width: 21px;
 			height: 24.83px;
+			position: relative;
 		}
 		.change:hover{
 			color:blue;
@@ -178,7 +184,8 @@
 			font-size:13px;
 			display: inline-block;
 			width: 646px;
-			margin-top: 43px;
+			position: relative;
+			top: 43px;
 			margin-bottom: 8px;
 		}
 		.hot-title{
@@ -201,6 +208,13 @@
 			font-size:16px;
 			color:#626675;
 		}
+		.rank-one:hover{
+			font-size:16px;
+			color:#626675;
+			color:blue;
+			text-decoration:underline;
+		}
+
 		.rank-first{
 		    display: inline-block;
 			font-size: 20px;
@@ -236,10 +250,16 @@
 		.rank-icon-new{	
 			font-size:16px;
 			color:red;
+			position: relative;
+			right: 148px;
+			margin: 0px 0px 4px 4px;
 		}
 		.rank-icon-hot{
 			font-size:16px;
 			color:orange;
+			position: relative;
+			right: 36px;
+			margin: 0px 0px 4px 4px;
 		}
 		.search-box{
 			width:650px;
@@ -248,6 +268,7 @@
 		.refresh{
 			font-size:13px;
 			float:right;
+			line-height: 18px;
 		}
 		.rank-nummber-left{
 			font-size: 12px;
