@@ -3,7 +3,6 @@
 			font-size: 14px;
 			}
 		a{
-			display:inline-block;
 			text-decoration: none;
 			color: inherit;
 		 }
@@ -14,10 +13,8 @@
 			list-style: none;
 		}
 		li{
-			display:inline-block;
-			    width: 278px;
-				height:34px;
-				line-height: 32px;
+			list-style:none;
+			line-height: 32px;
 		}
 		ul{
 			column-count:2;
@@ -28,7 +25,6 @@
 			font-style:normal;
 		}
 		.header{
-			margin: 0;
 			line-height: 60px;
 			padding:0 24px;
 		}
@@ -38,34 +34,31 @@
 		.bottom-left-navigation:hover,.bottom-right-navigation:hover{
 			color:black;
 		}
-		.left-navigation{															
-			color:black;
+		.left-navigation{
 			font-size:13px;
-			margin-right: 31px;
-			display: inline-block;
+			margin-right:31px;
 		}
 		.right-navigation{
-			height: 60px;
 			float: right;
 		}
 		.fight-against-pneumonia{
 			color:red;
 			margin-left:32px;
+			font-size: 13px;
 		}
 		.main .logo-img{
 			height: 100%;
 		}
 		.sign-in{
 			background-color: #4e71f2;
-			border-radius: 10px;
-			margin-left: 32px;
+			border-radius: 5px;
+			margin-left:32px;
 			color: white;
 			display: inline-block;
-			height: 24px;
 			width: 48px;
 			line-height: 23px;
+			font-size:13px;
 			text-align: center;
-			margin-top: 17px;
 		}
 		.footer{
 			background-color: #fafafa;
@@ -88,31 +81,24 @@
 		}
 		.bottom-right-navigation,.bottom-right-title{
 			margin-left:30px;
-			float:right;
 		}
 		.bottom-left-navigation{
-			float:left;
 			margin-right:30px;
 		}
+		.bottom-r-box{
+			float:right;
+		}
 		.main .search-btn{
-			vertical-align: bottom;
-			display:inline-block;
-            cursor: pointer;
-            width: 100px;
-            height: 44px;
-            line-height: 45px;
-            line-height: 44px\9;
-            padding: 0;
-            background: 0 0;
-            background-color: #4e6ef2;
-            border-radius: 0 10px 10px 0;
-            font-size: 17px;
-            color: #fff;
-            box-shadow: none;
-            font-weight: 400;
-            border: none;
-            outline: 0;
-            text-align:center;
+			transition: all .15s;
+			width: 100px;
+			line-height: 44px;
+			text-align: center;
+			border-radius: 0 10px 10px 0;
+			background: #4e6ef2;
+			color: #fff;
+			display: inline-block;
+			vertical-align: top;
+			font-size: 16px;
         }
 		.input-box{
 		    width: 654px;
@@ -156,14 +142,10 @@
 			color:blue;
 		}
 		.change{
-			right: 1px;
-			top: 5px;
+		    margin: 0px 4px 2px 0px;
+			font-size: 22px;
+			vertical-align: middle;
 			display: inline-block;
-			font-size: 25px;
-			margin: 0px 4px 2px 0px;
-			width: 21px;
-			height: 24.83px;
-			position: relative;
 		}
 		.change:hover{
 			color:blue;
@@ -179,9 +161,6 @@
 			color:blue;
 		}
 		.hot-nav{
-			font-size: 13px;
-			display: inline-block;
-			width: 646px;
 			margin: 32px 0px 8px 0px;
 		}
 		.hot-title{
@@ -189,14 +168,6 @@
 			height:24px;
 			font-size: 14px;
 			line-height: 23px;
-		}
-		.news-rank-content{
-			text-align: left;
-			float:left;
-			width:648px;
-		}
-		.rank{
-			font-size:14px;
 		}
 		.rank:hover{
 			color:blue;
