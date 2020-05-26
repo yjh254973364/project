@@ -12,21 +12,22 @@
 		ol{
 			list-style: none;
 		}
-		li{
-			list-style:none;
-			line-height: 32px;
-		}
 		ul{
-			column-count:2;
 			margin:0;
 			padding:0;
 		}
 		i{
 			font-style:normal;
 		}
+		.ul{
+			list-style:none;
+			column-count:2;
+			line-height:32px;
+			}
 		.header{
 			line-height: 60px;
 			padding:0 24px;
+			font-size:13px;
 		}
 		.left-navigation:hover,.fight-against-pneumonia:hover{
 			color:blue;
@@ -35,7 +36,6 @@
 			color:black;
 		}
 		.left-navigation{
-			font-size:13px;
 			margin-right:31px;
 		}
 		.right-navigation{
@@ -44,7 +44,6 @@
 		.fight-against-pneumonia{
 			color:red;
 			margin-left:32px;
-			font-size: 13px;
 		}
 		.main .logo-img{
 			height: 100%;
@@ -57,7 +56,6 @@
 			display: inline-block;
 			width: 48px;
 			line-height: 23px;
-			font-size:13px;
 			text-align: center;
 		}
 		.footer{
@@ -161,13 +159,12 @@
 			color:blue;
 		}
 		.hot-nav{
-			margin: 32px 0px 8px 0px;
+			margin: 32px 0px 8px;
 		}
 		.hot-title{
-			width:56px;
-			height:24px;
-			font-size: 14px;
-			line-height: 23px;
+		}
+		.rank{
+			
 		}
 		.rank:hover{
 			color:blue;
@@ -230,13 +227,8 @@
 			display: inline-block;
 		}
 		.rank-icon-hot{
-		    display: inline-block;
-			font-size: 16px;
-			color: orange;
+			color: #ffa23c;
 			margin: 0px 0px 4px 4px;
-			height: 16px;
-			width: 16px;
-			line-height: 18px;
 		}
 		.search-box{
 
