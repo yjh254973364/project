@@ -6,7 +6,6 @@
 			display:inline-block;
 			text-decoration: none;
 			color: inherit;
-			vertical-align: middle;
 		 }
         input {
             outline: none;
@@ -100,7 +99,7 @@
 			display:inline-block;
             cursor: pointer;
             width: 100px;
-            height: 45px;
+            height: 44px;
             line-height: 45px;
             line-height: 44px\9;
             padding: 0;
@@ -121,10 +120,9 @@
 			text-align:center;
 		}
         .main {
-            width: 646px;
+            width: 648px;
             margin: 0 auto;
             padding-top: 30px;
-            height: 325px;
             position:relative;
         }
 		.main .search-btn:hover {
@@ -137,7 +135,7 @@
             border-bottom-left-radius: 10px;
             width: 500px;
             padding: 10px;
-            height: 21px;
+            height: 20px;
             line-height: 20px;
             font-size: 20px;
             
@@ -195,7 +193,7 @@
 		.news-rank-content{
 			text-align: left;
 			float:left;
-			width:646px;
+			width:648px;
 		}
 		.rank{
 			font-size:14px;
@@ -270,8 +268,7 @@
 			line-height: 18px;
 		}
 		.search-box{
-			width:650px;
-			height:45px;
+
 		}
 		.refresh{
 			font-size: 13px;
