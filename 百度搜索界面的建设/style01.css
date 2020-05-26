@@ -6,6 +6,7 @@
 			display:inline-block;
 			text-decoration: none;
 			color: inherit;
+			vertical-align: middle;
 		 }
         input {
             outline: none;
@@ -197,14 +198,14 @@
 			width:646px;
 		}
 		.rank{
-			font-size:16px;
+			font-size:14px;
 		}
 		.rank:hover{
 			color:blue;
 			text-decoration:underline;
 		}
 		.rank-one{
-			color: #8d8d8d;
+			
 		}
 		.rank-one:hover{
 			color:blue;
@@ -219,6 +220,7 @@
 			color: #ffe622;
 			margin: 0px 8px 4px 0px;
 			line-height: 20px;
+			vertical-align: middle;
 		}
 		.rank-second{
 		    display: inline-block;
@@ -228,6 +230,7 @@
 			color:#c3e1ff;
 			margin:0px 8px 4px 0px;
 			line-height: 20px;
+			vertical-align: middle;
 		}
 		.rank-third{
 		    display: inline-block;
@@ -237,15 +240,17 @@
 			color:#e1d2b6;
 			margin:0px 8px 4px 0px;
 			line-height: 20px;
+			vertical-align: middle;
 		}
 		.rank-other{
 		    display: inline-block;
 			font-size: 20px;
 			height: 20px;
 			width: 20px;
-			color:#ebebeb;
+			color:#eeeeee;
 			margin:0px 8px 4px 0px;
 			line-height: 20px;
+			vertical-align: middle;
 		}
 		.rank-icon-new{	
 			nt-size: 16px;
@@ -269,9 +274,10 @@
 			height:45px;
 		}
 		.refresh{
-			font-size:13px;
-			float:right;
+			font-size: 13px;
+			float: right;
 			line-height: 18px;
+			color: #949494;
 		}
 		.rank-nummber-left{
 			font-size: 12px;
