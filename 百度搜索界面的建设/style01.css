@@ -213,15 +213,16 @@
 			display: inline-block;
 		}
 		.rank-icon-new{	
-			nt-size: 16px;
 			color: red;
 			margin: 0px 0px 4px 4px;
-			height: 16px;
-			line-height: 19px;
+			line-height: 16px;
+			display: inline-block;
 		}
 		.rank-icon-hot{
 			color: #ffa23c;
 			margin: 0px 0px 4px 4px;
+			display: inline-block;
+			line-height: 16px;
 		}
 		.search-box{
 
