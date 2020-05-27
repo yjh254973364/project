@@ -23,7 +23,9 @@
 			list-style:none;
 			column-count:2;
 			line-height:32px;
-			}
+		}
+		.li{
+		}
 		.header{
 			line-height: 60px;
 			padding:0 24px;
@@ -179,44 +181,36 @@
 		}
 
 		.rank-first{
-		    display: inline-block;
 			font-size: 20px;
-			height: 20px;
-			width: 20px;
 			color: #ffe622;
-			margin: 0px 8px 4px 0px;
-			line-height: 20px;
+			margin:0px 6px 4px 0px;
 			vertical-align: middle;
+			line-height: 20px;
+			display: inline-block;
 		}
 		.rank-second{
-		    display: inline-block;
+			color: #c3e1ff;
 			font-size: 20px;
-			height: 20px;
-			width: 20px;
-			color:#c3e1ff;
-			margin:0px 8px 4px 0px;
-			line-height: 20px;
+			margin: 0px 6px 4px 0px;
 			vertical-align: middle;
+			line-height: 20px;
+			display: inline-block;
 		}
 		.rank-third{
-		    display: inline-block;
 			font-size: 20px;
-			height: 20px;
-			width: 20px;
 			color:#e1d2b6;
-			margin:0px 8px 4px 0px;
-			line-height: 20px;
+			margin: 0px 6px 4px 0px;
 			vertical-align: middle;
+			line-height: 20px;
+			display: inline-block;
 		}
 		.rank-other{
-		    display: inline-block;
 			font-size: 20px;
-			height: 20px;
-			width: 20px;
 			color:#eeeeee;
-			margin:0px 8px 4px 0px;
-			line-height: 20px;
+			margin: 0px 6px 4px 0px;
 			vertical-align: middle;
+			line-height: 20px;
+			display: inline-block;
 		}
 		.rank-icon-new{	
 			nt-size: 16px;
@@ -224,7 +218,6 @@
 			margin: 0px 0px 4px 4px;
 			height: 16px;
 			line-height: 19px;
-			display: inline-block;
 		}
 		.rank-icon-hot{
 			color: #ffa23c;
@@ -242,9 +235,8 @@
 		.rank-nummber-left{
 			font-size: 12px;
 			color: white;
-			position: relative;
-			left: -14px;
-			top: -3px;
+			position: absolute;
+			left: 6px;
 		}
 		.rank-nummber-right{
 			font-size: 12px;
