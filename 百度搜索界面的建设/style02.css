@@ -121,8 +121,8 @@
             height: 20px;
             line-height: 20px;
             font-size: 20px;
-            
             padding-right: 35px;
+			position:relative;
         }
         .main .search-key:focus {
             border-color: #4e6ef2;
@@ -130,8 +130,8 @@
 		.main .camere{
 			font-size:30px;
 			position: absolute;
-			top: 147px;
-			left: 514px;
+			line-height: 46px;
+			right: 108px;
 			cursor: pointer;
 			color:#9e9e9e;
 		}
@@ -139,7 +139,7 @@
 			color:blue;
 		}
 		.main .change{
-		    margin: 0px 4px 2px 0px;
+		    margin: 0 4px 2px 0;
 			font-size: 22px;
 			vertical-align: middle;
 			display: inline-block;
@@ -151,18 +151,19 @@
 		    font-size: 13px;
 			float: right;
 			display: inline-block;
-			height: 14.4px;
+			height: 14px;
 			color: #9195a3;
 		}
 		.main .change-text:hover{
 			color:blue;
 		}
 		.main .hot-nav{
-			margin: 32px 0px 8px;
+			margin: 32px 0 8px;
 		}
 		.main .hot-title{
 		}
 		.main .rank{
+			position:relative;
 		}
 		.main .rank:hover .title-list{
 			color:blue;
@@ -210,29 +211,25 @@
 		.main .refresh{
 			font-size: 13px;
 			float: right;
-			line-height: 18px;
 			color: #949494;
 		}
 		.main .rank-nummber-one{
 			font-size: 12px;
 			color: white;
 			position: absolute;
-			left: 5.5px;
-			bottom: 65px;
+			left: 6px;
 		}
 		.main .rank-nummber-two{
 			font-size: 12px;
 			color: white;
 			position: absolute;
-			left: 5.5px;
-			bottom: 33px;
+			left: 6px;
 		}
 		.main .rank-nummber-three{
 			font-size: 12px;
 			color: white;
 			position: absolute;
-			left: 5.5px;
-			bottom: 1px
+			left: 6px;
 		}
 		.main .rank-nummber-one:hover, .main .rank-nummber-two:hover, .main .rank-nummber-three:hover{
 			text-decoration:none;
@@ -241,22 +238,19 @@
 			font-size: 12px;
 			color: #a5a5a5;
 			position: absolute;
-			right: 304.5px;
-			bottom: 65px;
+			left: 6px;
 		}
 		.main .rank-nummber-five{
 			font-size: 12px;
 			color: #a5a5a5;
 			position: absolute;
-			right: 304px;
-			bottom: 33px;
+			left: 6px;
 		}
 		.main .rank-nummber-six{
 			font-size: 12px;
 			color: #a5a5a5;
 			position: absolute;
-			right: 304px;
-			bottom: 1px;
+			left: 6px;
 		}
 		.main .rank-nummber-six:hover, .main .rank-nummber-four:hover, .main .rank-nummber-five:hover{
 			text-decoration:none;
