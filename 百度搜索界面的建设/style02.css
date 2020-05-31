@@ -42,14 +42,14 @@
 		.header .right-navigation{
 			float: right;
 		}
-		.header .fight-against-pneumonia{
+		.header .right-navigation .fight-against-pneumonia{
 			color:red;
 			margin-right:32px;
 		}
 		.main .logo-img{
 			height: 100%;
 		}
-		.header .sign-in{
+		.header .right-navigation .sign-in{
 			background-color: #4e71f2;
 			border-radius: 5px;
 			margin-right:32px;
@@ -76,7 +76,7 @@
             width: 100%;
 			vertical-align: bottom;
 		}
-		.footer .bottom-right-navigation,.footer .bottom-right-title{
+		.footer .bottom-r-box .bottom-right-navigation,.footer .bottom-r-box .bottom-right-title{
 			margin-right:30px;
 		}
 		.footer .bottom-left-navigation{
@@ -85,7 +85,7 @@
 		.footer .bottom-r-box{
 			float:right;
 		}
-		.main .search-btn{
+		.main .search-box .search-btn{
 			transition: all .15s;
 			width: 100px;
 			line-height: 44px;
@@ -97,21 +97,16 @@
 			vertical-align: top;
 			font-size: 16px;
         }
-		.main .input-box{
-		    width: 654px;
-			height: 100%;
-			text-align:center;
-		}
         .main {
             width: 648px;
             margin: 0 auto;
             padding-top: 30px;
             position:relative;
         }
-		.main .search-btn:hover {
+		.main .search-box.search-btn:hover {
             background: #4662d9;
         }
-		.main .search-key {
+		.main .search-box .search-key {
             border: 2px solid #c4c7ce;
             border-right: 0;
             border-top-left-radius: 10px;
@@ -124,10 +119,10 @@
             padding-right: 35px;
 			position:relative;
         }
-        .main .search-key:focus {
+        .main .search-box .search-key:focus {
             border-color: #4e6ef2;
         }
-		.main .camere{
+		.main .search-box .camere{
 			font-size:30px;
 			position: absolute;
 			line-height: 46px;
@@ -135,10 +130,10 @@
 			cursor: pointer;
 			color:#9e9e9e;
 		}
-		.main .camere:hover{
+		.main .search-box .camere:hover{
 			color:blue;
 		}
-		.main .change{
+		.main .hot-nav .change{
 		    margin: 0 4px 2px 0;
 			font-size: 22px;
 			vertical-align: middle;
@@ -160,89 +155,77 @@
 		.main .hot-nav{
 			margin: 32px 0 8px;
 		}
-		.main .hot-title{
+		.main .hot-nav .hot-title{
 		}
-		.main .rank{
+		.main .ul .li .rank{
 			position:relative;
 		}
-		.main .rank:hover .title-list{
+		.main .ul .li .rank:hover .title-list{
 			color:blue;
 			text-decoration:underline;
 		}
-		.main .rank-first{
+		.main .ul .li .rank-first{
 			color: #ffe622;
 			line-height: 20px;
 			font-size: 18px;
 			vertical-align: text-top;
 		}
-		.main .rank-second{
+		.main .ul .li .rank-second{
 			color: #c3e1ff;
 			line-height: 20px;
 			font-size: 18px;
 			vertical-align: text-top;
 		}
-		.main .rank-second:hover{
+		.main .ul .li .rank-second:hover{
 			text-decoration:none;
 		}
-		.main .rank-third:hover{
+		.main .ul .li .rank-third:hover{
 			text-decoration:none;
 		}
-		.main .rank-third{
+		.main .ul .li .rank-third{
 			color:#e1d2b6;
 			line-height: 20px;
 			font-size: 18px;
 			vertical-align: text-top;
 		}
-		.main .rank-other:hover{
+		.main .ul .li .rank-other:hover{
 			text-decoration:none;
 		}
-		.main .rank-other{
+		.main .ul .li .rank-other{
 			color:#eeeeee;
 			line-height: 20px;
 			font-size: 18px;
 			vertical-align: text-top;
 		}
-		.main .rank-icon-new{	
+		.main .ul .li .rank-icon-new{	
 			color: red;
 		}
-		.main .rank-icon-hot{
+		.main .ul .li .rank-icon-hot{
 			color: #ffa23c;
 		}
-		.main .refresh{
+		.main .hot-nav .refresh{
 			font-size: 13px;
 			float: right;
 			color: #949494;
 		}
-		.main .rank-nummber-left{
+		.main .ul .li .rank-nummber-left{
 			font-size: 12px;
 			color: white;
 			position: absolute;
 			left: 6px;
 		}
-		.main .rank-nummber-one:hover, .main .rank-nummber-two:hover, .main .rank-nummber-three:hover{
+		.main .ul .li .rank-nummber-one:hover, .main .rank-nummber-two:hover, .main .rank-nummber-three:hover{
 			text-decoration:none;
 		}
-		.main .rank-nummber-right{
+		.main .ul .li .rank-nummber-right{
 			font-size: 12px;
 			color: #a5a5a5;
 			position: absolute;
 			left: 6px;
 		}
-		.main .rank-nummber-right{
-			font-size: 12px;
-			color: #a5a5a5;
-			position: absolute;
-			left: 6px;
-		}
-		.main .rank-nummber-right{
-			font-size: 12px;
-			color: #a5a5a5;
-			position: absolute;
-			left: 6px;
-		}
-		.main .rank-nummber-six:hover, .main .rank-nummber-four:hover, .main .rank-nummber-five:hover{
+		.main .ul .li .rank-nummber-six:hover, .main .ul .li .rank-nummber-four:hover, .main .ul .li .rank-nummber-five:hover{
 			text-decoration:none;
 		}
-		.main .refresh:hover{
+		.main .hot-nav .refresh:hover{
 			color:blue;
 		}
