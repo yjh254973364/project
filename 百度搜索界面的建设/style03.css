@@ -1,0 +1,215 @@
+		body{
+			margin: 0;
+			font-size: 14px;
+			}
+		a{
+			text-decoration: none;
+			color: inherit;
+		 }
+        input {
+            outline: none;
+        }
+		ol{
+			list-style: none;
+		}
+		ul{
+			margin:0;
+			padding:0;
+		}
+		i{
+			font-style:normal;
+		}
+		.ul{
+			list-style:none;
+			column-count:2;
+			line-height:32px;
+		}
+		.li{
+		}
+		.header{
+			line-height: 60px;
+			font-size:13px;
+		}
+		.header .left-navigation:hover, .header .fight-against-pneumonia:hover{
+			color:blue;
+		}
+		.footer .bottom-left-navigation:hover, .footer .bottom-right-navigation:hover{
+			color:black;
+		}
+		.header .left-navigation{
+			margin-left:31px;
+		}
+		.header .right-navigation{
+			float: right;
+		}
+		.header .right-navigation .fight-against-pneumonia{
+			color:red;
+			margin-right:32px;
+		}
+		.main .logo-img{
+			height: 100%;
+		}
+		.header .right-navigation .sign-in{
+			background-color: #4e71f2;
+			border-radius: 5px;
+			margin-right:32px;
+			color: white;
+			display: inline-block;
+			width: 48px;
+			line-height: 23px;
+			text-align: center;
+		}
+		.footer{
+			background-color: #fafafa;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            line-height: 40px;
+            color: #9195a3;
+            font-size: 12px;
+		}
+		.main .baidu-logo{
+            height: 110px;
+            display: inline-block;
+            text-align: center;
+            width: 100%;
+			vertical-align: bottom;
+		}
+		.footer .bottom-r-box .bottom-right-navigation,.footer .bottom-r-box .bottom-right-title{
+			margin-right:30px;
+		}
+		.footer .bottom-left-navigation{
+			margin-left:30px;
+		}
+		.footer .bottom-r-box{
+			float:right;
+		}
+		.main .search-box .search-btn{
+			transition: all .15s;
+			width: 100px;
+			line-height: 44px;
+			text-align: center;
+			border-radius: 0 10px 10px 0;
+			background: #4e6ef2;
+			color: #fff;
+			display: inline-block;
+			vertical-align: top;
+			font-size: 16px;
+        }
+        .main {
+            width: 648px;
+            margin: 0 auto;
+            padding-top: 30px;
+            position:relative;
+        }
+		.main .search-box.search-btn:hover {
+            background: #4662d9;
+        }
+		.main .search-box .search-key {
+            border: 2px solid #c4c7ce;
+            border-right: 0;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            width: 500px;
+            padding: 10px;
+            height: 20px;
+            line-height: 20px;
+            font-size: 20px;
+            padding-right: 35px;
+			position:relative;
+        }
+        .main .search-box .search-key:focus {
+            border-color: #4e6ef2;
+        }
+		.main .search-box .camere{
+			font-size:30px;
+			position: absolute;
+			line-height: 46px;
+			right: 108px;
+			cursor: pointer;
+			color:#9e9e9e;
+		}
+		.main .search-box .camere:hover{
+			color:blue;
+		}
+		.main .hot-nav .change{
+		    margin: 0 4px 2px 0;
+			font-size: 22px;
+			vertical-align: middle;
+			display: inline-block;
+		}
+		.main .hot-nav .change:hover{
+			color:blue;
+		}
+		.main .hot-nav{
+			margin: 32px 0 8px;
+		}
+		.main .hot-nav .hot-title{
+		}
+		.main .ul .li .rank{
+			position:relative;
+		}
+		.main .ul .li .rank:hover .title-list{
+			color:blue;
+			text-decoration:underline;
+		}
+		.main .ul .li .rank-first{
+			color: #ffe622;
+			line-height: 20px;
+			font-size: 18px;
+			vertical-align: text-top;
+		}
+		.main .ul .li .rank-second{
+			color: #c3e1ff;
+			line-height: 20px;
+			font-size: 18px;
+			vertical-align: text-top;
+		}
+		.main .ul .li .rank-second:hover{
+			text-decoration:none;
+		}
+		.main .ul .li .rank-third:hover{
+			text-decoration:none;
+		}
+		.main .ul .li .rank-third{
+			color:#e1d2b6;
+			line-height: 20px;
+			font-size: 18px;
+			vertical-align: text-top;
+		}
+		.main .ul .li .rank-other:hover{
+			text-decoration:none;
+		}
+		.main .ul .li .rank-other{
+			color:#eeeeee;
+			line-height: 20px;
+			font-size: 18px;
+			vertical-align: text-top;
+		}
+		.main .ul .li .rank-icon-new{	
+			color: red;
+		}
+		.main .ul .li .rank-icon-hot{
+			color: #ffa23c;
+		}
+		.main .ul .li .rank-nummber-left{
+			font-size: 12px;
+			color: white;
+			position: absolute;
+			left: 6px;
+		}
+		.main .ul .li .rank-nummber-right{
+			font-size: 12px;
+			color: #a5a5a5;
+			position: absolute;
+			left: 6px;
+		}
+		.main .hot-nav .refresh{
+			font-size: 13px;
+			float: right;
+			color: #949494;
+		}
+		.main .hot-nav .refresh:hover{
+			color:blue;
+		}
