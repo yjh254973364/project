@@ -154,38 +154,20 @@
 			color:blue;
 			text-decoration:underline;
 		}
+		.main .ul .li .rank-icon{
+			font-size:20px;
+			color:#f0f0f0;
+			line-height: 20px;
+		}
 		.main .ul .li .rank-first{
 			color: #ffe622;
-			line-height: 20px;
-			font-size: 18px;
-			vertical-align: text-top;
 		}
 		.main .ul .li .rank-second{
 			color: #c3e1ff;
-			line-height: 20px;
-			font-size: 18px;
-			vertical-align: text-top;
 		}
-		.main .ul .li .rank-second:hover{
-			text-decoration:none;
-		}
-		.main .ul .li .rank-third:hover{
-			text-decoration:none;
-		}
+
 		.main .ul .li .rank-third{
 			color:#e1d2b6;
-			line-height: 20px;
-			font-size: 18px;
-			vertical-align: text-top;
-		}
-		.main .ul .li .rank-other:hover{
-			text-decoration:none;
-		}
-		.main .ul .li .rank-other{
-			color:#eeeeee;
-			line-height: 20px;
-			font-size: 18px;
-			vertical-align: text-top;
 		}
 		.main .ul .li .rank-icon-new{	
 			color: red;
@@ -198,12 +180,14 @@
 			color: white;
 			position: absolute;
 			left: 6px;
+			bottom: -4px;
 		}
 		.main .ul .li .rank-nummber-right{
 			font-size: 12px;
 			color: #a5a5a5;
 			position: absolute;
 			left: 6px;
+			bottom: -4px;
 		}
 		.main .hot-nav .refresh{
 			font-size: 13px;
