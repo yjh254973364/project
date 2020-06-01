@@ -197,3 +197,46 @@
 		.main .hot-nav .refresh:hover{
 			color:blue;
 		}
+        .QR-code-box{
+			position:fixed;
+			bottom:70px;
+			right:36px;
+        }
+        .QR-code-box .show{
+            bottom: 80px;
+            right: 70px;
+            position: fixed;
+            opacity: 0;
+            width: 280px;
+            height: 95px;
+            display: block;
+            border-radius: 10px;
+            border: 2px solid #e5e5e5;
+        }
+        .QR-code-box:hover .show{
+            color: #656e73;
+            opacity: 1;
+        }
+		.QR-code-box .show .QR-code-img{
+			height: 75px;
+			width: 75px;
+			position:absolute;
+			right: 10px;
+			bottom: 10px;
+		}
+		.QR-code-box .QR-code:hover{
+			color:blue;
+		}
+		.QR-code-box .show .scan-code{
+			position: absolute;
+			left: 10px;
+			top: 20px;
+			font-size: 20px;
+		}
+		.QR-code-box .show .text{
+			left: 12px;
+			color: #c1c1c1;
+			font-size: 15px;
+			position: absolute;
+			bottom: 30px;
+		}
