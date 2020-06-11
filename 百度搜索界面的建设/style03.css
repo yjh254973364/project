@@ -4,8 +4,8 @@
 			}
 		a{
 			text-decoration: none;
-			color: inherit;
-		 }
+			color: black;
+			}
         input {
             outline: none;
         }
@@ -21,30 +21,26 @@
 		}
 		.ul{
 			list-style:none;
-			column-count:2;
 			line-height:32px;
 		}
-		.li{
+		.ul .li{
+			float:left;
+			width:272px;
 		}
 		.header{
 			line-height: 60px;
 			font-size:13px;
-			display:inline;
 		}
 		.header .left-navigation .left-nav:hover, .header .right-navigation .fight-against-pneumonia:hover{
 			color:blue;
 		}
-		.footer .bottom-left-navigation:hover, .footer .bottom-right-navigation:hover{
-			color:black;
-		}
+
 		.header .left-navigation{
-			display: inline-block;
 		}
 		.header .left-navigation .left-nav{
 			margin-left:28px;
 		}
 		.header .right-navigation{
-			display: inline-block;
 			float: right;
 			
 		}
@@ -54,6 +50,7 @@
 		}
 		.main .logo-img{
 			height: 100%;
+			border:none;
 		}
 
 
@@ -74,6 +71,7 @@
 			box-shadow: 0 4px 6px 0 rgba(0,0,0,.1);
 			z-index: 999;
 			background: white;
+			top: 20px;
 		}
 		.right-navigation .box-setmenu .set-up{
 			margin-right:31px;
@@ -94,6 +92,7 @@
 			box-shadow: 0 4px 6px 0 rgba(0,0,0,.1);
 			z-index: 999;
 			background: white;
+			top: 20px;
 		}
 		.right-navigation .box-setmenu .show-menu .list-menu{
 			display:block;
@@ -130,9 +129,14 @@
 		}
 		.footer .bottom-r-box .bottom-right-navigation,.footer .bottom-r-box .bottom-right-title{
 			margin-right:30px;
+			color: #a8a8a8;
+		}
+				.footer .bottom-left-navigation:hover, .footer .bottom-right-navigation:hover{
+		color: black;
 		}
 		.footer .bottom-left-navigation{
 			margin-left:30px;
+			color: #a2a2a2;
 		}
 		.footer .bottom-r-box{
 			float:right;
@@ -193,6 +197,7 @@
 			font-size: 22px;
 			vertical-align: middle;
 			display: inline-block;
+
 		}
 		.main .hot-nav .change:hover{
 			color:blue;
@@ -209,43 +214,53 @@
 			color:blue;
 			text-decoration:underline;
 		}
-		.main .ul .li .rank-icon{
-			font-size:20px;
-			color:#f0f0f0;
-			line-height: 20px;
-		}
-		.main .ul .li .rank-first{
-			color: #ffe622;
-		}
-		.main .ul .li .rank-second{
-			color: #c3e1ff;
-		}
 
-		.main .ul .li .rank-third{
-			color:#e1d2b6;
-		}
-		.main .ul .li .rank-icon-new{	
-			color: red;
-		}
-		.main .ul .li .rank-icon-hot{
-			color: #ffa23c;
-		}
-		.main .ul .li .rank-nummber-left{
+		.main .ul .li .rank-left{
+			color: #ffffff;
+			width: 20px;
+			height: 20px;
+			text-align: center;
+			display: inline-block;
+			vertical-align: text-bottom;
+			line-height: 20px;
 			font-size: 12px;
-			color: white;
-			position: absolute;
-			left: 6px;
-			bottom: -4px;
 		}
-		.main .ul .li .rank-nummber-right{
+		.main .ul .li .rank-right{
+			color: black;
+			width: 20px;
+			height: 20px;
+			text-align: center;
+			display: inline-block;
+			vertical-align: text-bottom;
+			line-height: 20px;
 			font-size: 12px;
-			color: #a5a5a5; 
-			position: absolute;
-			left: 6px;
-			bottom: -4px;
+		}
+		.main .ul .li .bg-color-1{
+			background-image: url(img/top_1.png);
+		}
+		.main .ul .li .bg-color-2{
+			background-image: url(img/top_2.png);
+		}
+		.main .ul .li .bg-color-3{
+			background-image: url(img/top_3.png);
+		}
+		.main .ul .li .bg-color-other{
+			background-image: url(img/top_4.png);
+			color: #a3a3a3;
+		}
+		.title-hot{
+			background-image: url(img/hot.png)
+		}
+		.title-new{
+			background-image: url(img/new.png)
+		}
+		.icon-little{
+			width: 16px;
+			height: 16px;
+			display: inline-block;
+			vertical-align: middle;
 		}
 		.main .hot-nav .refresh{
-			font-size: 13px;
 			float: right;
 			color: #949494;
 		}
@@ -342,9 +357,9 @@
 			border-radius: 20px;
 			border: 2px solid #e5e5e5;
 			left:120px;
-			clear: both;
 			z-index: 999;
 			background: white;
+			top:45px;
 		}
 		.box-more:hover .show-more{
 			display:block;
@@ -353,24 +368,24 @@
 			border-radius: 20px;
 			border: 2px solid #e5e5e5;
 			left:120px;
-			clear: both;
 			z-index: 999;
 			background: white;
+			top:45px;
 		}
 		.more-app{
 			display: inline-block;
 			text-align: center;
-			position:relative;
-
 		}
 		.more-app:hover .text{
 			color:blue;
 		}
 		.show-top{
 			padding: 10px 0 0;
+			line-height: 15px;
 		}
 		.show-bottom{
 			padding: 10px 0 0;
+			line-height: 15px;
 		}
 		.more-pro{
 			text-align: center;
@@ -388,8 +403,10 @@
 			border-radius: 14px;
 		}
 		.text{
-			width: 72px;
-			position: absolute;
-			line-height: 20px;
-			top: 44px;
+		}
+		.odd{
+			margin-right:52px;
+		}
+		.even{
+			margin-left:52px;
 		}
